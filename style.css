@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.card-holder{ 
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.card{
+    margin: 1rem;
+    transition: 0.4s;
+    box-shadow: 0 0.2rem 0.6rem 0;
+}
+.card img{
+    height: 16rem;
+}
+
+.card:hover{
+    box-shadow: 0 0.5rem 1rem 0;
+}
