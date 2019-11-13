@@ -2,6 +2,7 @@
     /*box-sizing: border-box;*/
     margin: 0;
     padding: 0;
+    
 }
 /*
 html, body{
@@ -9,12 +10,45 @@ html, body{
     width: 100%;
     display: flex;
 }*/
-
+/*
 canvas{
     /*height: 100vh;*/
-    position: fixed;
-    z-index: -10;
+    /*position: fixed;*/
+    /*z-index: -10;*/
     /*overflow: hidden;*/
+    /*
+}
+*/
+.background-holder{
+    background-image: url(./img/rocket-1245696.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Teko', sans-serif;
+}
+
+.background-holder h1{
+    font-size: 2.8rem;
+}
+
+.background-holder p{
+    font-size: 2rem;
+}
+
+.navbar{
+    background-color: peru;
+    width: 100%;
+}
+
+.fixNavbarToTop{
+    position: fixed;
+    top: 0;
 }
 
 .card-holder{ 
@@ -25,15 +59,25 @@ canvas{
 }
 
 .card{
-    margin: 1rem;
+    margin: 0.5rem;
     transition: 0.4s;
     box-shadow: 0 0.2rem 0.6rem 0;
     background-color: white;
 }
 .card img{
-    height: 16rem;
+    height: 12rem;
 }
 
 .card:hover{
     box-shadow: 0 0.5rem 1rem 0;
+}
+
+footer{
+    background-image: url(./img/rocket-1245696.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 14rem;
 }
