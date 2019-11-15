@@ -31,6 +31,10 @@ canvas{
     justify-content: center;
     align-items: center;
     font-family: 'Teko', sans-serif;
+
+    animation-name: scrollHint;
+    animation-duration: 4s;
+    animation-delay: 1.8s;
 }
 
 .background-holder h1{
@@ -81,3 +85,13 @@ footer{
     color: white;
     height: 14rem;
 }
+
+@keyframes scrollHint{
+    0% {height: 100vh;}
+    33% {height: 90vh;}
+    100% {height: 100vh;}
+}
+/*
+@keyframes nameZoom{
+    from {}
+}*/
