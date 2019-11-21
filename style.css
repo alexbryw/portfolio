@@ -135,6 +135,24 @@ footer{
     background-attachment: fixed;
     color: white;
     height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contact-holder{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.footer-contact-holder a:link{
+    color: initial;
+    text-decoration-line: none;
 }
 
 @keyframes scrollHint{
