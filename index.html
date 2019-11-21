@@ -6,23 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--<script src="canvas.js"></script>-->
     <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Alex Portfolio</title>
 </head>
 <body>
     <!--<canvas width="150" height="150"></canvas>-->
+    <a name="top"></a>
     <div class="background-holder">
         <h1>Alexander Bryngelsson</h1>
         <p>Portfolio</p>
+        <a href="#navbar">
+            <i class="material-icons">
+                keyboard_arrow_down
+            </i>
+        </a>
+
     </div>
-    <div class="navbar">
+    <div id="navbar" class="navbar">
         <ul>
-            <li>list 1</li>
-            <li>list 2</li>
+            <li>
+                <a href="#top">
+                    
+                    <i class="material-icons">
+                        home
+                    </i>
+                    Back
+                </a>
+            </li>
+            <li>
+                <a href="#contact">
+                    Contact
+                    <i class="material-icons">
+                        mail
+                    </i>                
+                </a>
+            </li>
         </ul>
     </div>
-    <div class="card-holder">
+    <div id="portfolio" class="card-holder">
         <div class="card">
             <img src="./img/rio-de-janeiro-4566312_640.jpg" alt="bay of rio">
             <h4><b>Bold h4 Text</b></h4>
@@ -54,8 +77,10 @@
             <p>p Text here</p>
         </div>
     </div>
-    <footer>
-        <p>Contact:</p>
+    <footer id="contact">
+        <div class="footer-contact-holder">
+            <p>Contact:</p>
+        </div>
     </footer>
 </body>
 </html>
