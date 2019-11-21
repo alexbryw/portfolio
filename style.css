@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 
 body{
@@ -108,6 +107,7 @@ body{
     grid-template-columns: 20rem;
     align-self: center;
     margin: 3rem 0 3rem 0;
+    font-family: 'Roboto', sans-serif;
 
 }
 

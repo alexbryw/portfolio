@@ -26,8 +26,7 @@ function fixNavbar(){
  */
 function cancelScrollHint(){
     if(window.pageYOffset > 0){
-        document.querySelector('.background-holder').style.animationDuration = '0s'
-
+        document.querySelector('.background-holder').style.animationDuration = '0s';
     }
 }
 
@@ -49,7 +48,7 @@ function darkMode(){
         
         //loop over all cards in list and change text color to white/back.
         for(let card of cardElementList){
-            card.style.color = 'white'
+            card.style.color = 'white';
         }
 
         changeBackground();
@@ -58,11 +57,11 @@ function darkMode(){
         cardHolderElement.style.backgroundColor = 'white';
         bodyElement.style.backgroundColor = 'white';
         darkButtonElement.style.backgroundColor = 'white'
-        darkButtonElement.style.color = 'black'
+        darkButtonElement.style.color = 'black';
         
         //loop over all cards in list and change text color to white/back.
         for(let card of cardElementList){
-            card.style.color = 'black'
+            card.style.color = 'black';
         }
 
         changeBackground();
@@ -83,5 +82,19 @@ function changeBackground(){
     else{
         bgHolderElement.style.backgroundImage = "url('./img/rocket-1245696.jpg')";
         footerElement.style.backgroundImage = "url('./img/rocket-1245696.jpg')";
+    }
+}
+
+/**
+ * Changes opacity when mouse is over contact mail icon in footer.
+ * It changes back on next mouseover.
+ */
+function interactMailIcon(){
+    const iconElement = document.querySelector('.footer-contact-holder i');
+    if(iconElement.style.opacity !== '0.2'){
+        iconElement.style.opacity = '0.2';
+    }
+    else{
+        iconElement.style.opacity = '1';
     }
 }
