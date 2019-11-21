@@ -1,6 +1,9 @@
 //Runs starter function after page has finished loading.
 window.addEventListener('load', starter);
 
+/**
+ * Start function runs when page has loaded.
+ */
 function starter(){
     document.addEventListener('scroll', fixNavbar);
     document.addEventListener('scroll', cancelScrollHint);
