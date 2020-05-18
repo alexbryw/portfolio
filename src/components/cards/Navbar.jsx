@@ -36,7 +36,7 @@ export default function Navbar() {
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
-        <Toolbar>{/*This adds space between navbar and content below.*/}</Toolbar>
+        {/* <Toolbar>This adds space between navbar and content below.</Toolbar> */}
     </div>
   );
 }

@@ -5,6 +5,7 @@ import MediaCard from './MediaCard'
 import contentList from '../../content/content'
 import Navbar from './Navbar';
 import WelcomePage from './WelcomePage';
+import Current from './Current';
 
 export default function CardHolder() {
 
@@ -12,6 +13,7 @@ export default function CardHolder() {
         <div>
             <Navbar />
             <WelcomePage />
+            <Current />
             <Container fixed>
                 <Grid container
                     spacing={3}
