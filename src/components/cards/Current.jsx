@@ -1,11 +1,23 @@
 import React from 'react'
-import { Container, Typography } from '@material-ui/core'
+import { Container, Typography, Link } from '@material-ui/core'
+
 
 export default function Current(){
     return(
-        <Container style={{display: 'flex', justifyContent: "center", alignItems: "center"}}>
-            <Typography style={{padding: "1rem"}}>
-                Studerar på MedieInstitutet Front End Developer.
+        <Container style={{display: 'flex', flexDirection: "column", justifyContent: "center", alignItems: "center", padding: "3rem 1.5rem 5rem 1.5rem"}}>
+            <Typography color={"textPrimary"}>
+                Studerar på MedieInstitutet
+            </Typography>
+            <Typography style={{padding: "0 0 1rem 0"}} /*color={"primary"}*/>
+                <Link href="#">
+                    Front End Developer
+                </Link>
+            </Typography>
+            <Typography>
+                React JavaScript HTML/CSS 
+            </Typography>
+            <Typography>
+                Node Express Socket.IO C#
             </Typography>
         </Container>
     )

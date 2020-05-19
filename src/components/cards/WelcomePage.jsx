@@ -5,14 +5,14 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function WelcomePage(){
     return(
-        <Container style={{ height: '12rem', display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
+        <Container style={{ height: '20rem', display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
             <Typography variant={'h2'} color={"primary"}>
                 Portfolio
             </Typography>
-            <Typography variant={'h7'} color={"secondary"}>
+            <Typography variant={'h6'}>
                 Alexander Bryngelsson
             </Typography>
-            <Container style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <Container style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "1rem 0 0 0"}}>
                 <Typography style={{padding: "1rem"}}>
                     <Link href="#">
                         <GitHubIcon fontSize={'large'}/>

@@ -6,6 +6,7 @@ import contentList from '../../content/content'
 import Navbar from './Navbar';
 import WelcomePage from './WelcomePage';
 import Current from './Current';
+import Bottom from './Bottom'
 
 export default function CardHolder() {
 
@@ -29,6 +30,7 @@ export default function CardHolder() {
                     })}
                 </Grid>
             </Container>
+            <Bottom />
         </div>
     )
 }
