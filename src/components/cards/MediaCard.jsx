@@ -7,13 +7,14 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { Link } from '@material-ui/core'
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 320,
+    maxWidth: 340,
   },
   media: {
-    height: "8em",
+    height: "20em",
   },
   content: {
     height: "4em",
@@ -29,7 +30,7 @@ export default function MediaCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={"/img/misc.jpg"}
+          image={props.item.imgUrl}
           title="En bild"
         />
         <CardContent className={classes.content}>
@@ -42,12 +43,20 @@ export default function MediaCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        {props.item.links.length > 0 ? props.item.links.map((link, index) => {return(
+          <Link href={link.linkUrl} key={index}>
+            <Typography >
+              {link.linkDesc}
+            </Typography>
+          </Link>
+        )})
+        : <Typography>{/*empty space?*/}</Typography>}
+        {/* <Button size="small" color="primary">
           Share
         </Button>
         <Button size="small" color="primary">
           Learn More
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
   );
