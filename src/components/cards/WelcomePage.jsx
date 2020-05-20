@@ -14,7 +14,7 @@ export default function WelcomePage(){
             </Typography>
             <Container style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "1rem 0 0 0"}}>
                 <Typography style={{padding: "1rem"}}>
-                    <Link href="#">
+                    <Link href="https://github.com/alexbryw">
                         <GitHubIcon fontSize={'large'}/>
                     </Link>
                 </Typography>

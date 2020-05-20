@@ -5,7 +5,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-// import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Link } from '@material-ui/core'
 
@@ -44,11 +44,13 @@ export default function MediaCard(props) {
       {/* </CardActionArea> */}
       <CardActions style={{display: "flex", justifyContent: "space-between"}}>
         {props.item.links.length > 0 ? props.item.links.map((link, index) => {return(
-          <Link href={link.linkUrl} key={index}>
-            <Typography >
-              {link.linkDesc}
-            </Typography>
-          </Link>
+          <Button size="small" color="primary" key={index}>
+            <Link href={link.linkUrl} >
+              <Typography >
+                {link.linkDesc}
+              </Typography>
+            </Link>
+          </Button>
         )})
         : <Typography>Coming soon...</Typography>}
         {/* <Button size="small" color="primary">
