@@ -14,10 +14,16 @@ export default function Current(){
                 </Link>
             </Typography>
             <Typography>
-                React JavaScript TypeScript HTML/CSS 
+                React JavaScript 
             </Typography>
             <Typography>
-                Node Express Socket.IO MongoDB C#
+                TypeScript HTML/CSS 
+            </Typography>
+            <Typography>
+                Node Express C#
+            </Typography>
+            <Typography>
+                Socket.IO MongoDB
             </Typography>
         </Container>
     )

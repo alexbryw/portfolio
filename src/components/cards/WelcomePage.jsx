@@ -19,7 +19,7 @@ export default function WelcomePage(){
                     </Link>
                 </Typography>
                 <Typography style={{padding: "1rem"}}>
-                    <Link href="#">
+                    <Link href="https://www.linkedin.com/in/alexbry/">
                         <LinkedInIcon fontSize={'large'}/>
                     </Link>
                 </Typography>

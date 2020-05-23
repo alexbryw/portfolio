@@ -7,15 +7,21 @@ import Navbar from './Navbar';
 import WelcomePage from './WelcomePage';
 import Current from './Current';
 import Bottom from './Bottom'
+import { makeStyles } from '@material-ui/core/styles'
 
+const useStyles = makeStyles({
+    root: {
+        background: "#EAE7DC" /*"#E3E2DF"*/
+    }
+})
 export default function CardHolder() {
-
+    const classes = useStyles()
     return(
-        <div>
+        <div className={classes.root}>
             <Navbar />
             <WelcomePage />
             <Current />
-            <Container fixed>
+            <Container fixed /*className={classes.root}*/>
                 <Grid container
                     spacing={3}
                     // justify="space-evenly"

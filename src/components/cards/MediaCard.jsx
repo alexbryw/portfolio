@@ -31,7 +31,7 @@ export default function MediaCard(props) {
         <CardMedia
           className={classes.media}
           image={props.item.imgUrl}
-          title="En bild"
+          title="picture"
         />
         <CardContent className={classes.content}>
           <Typography gutterBottom variant="h5" component="h2">
