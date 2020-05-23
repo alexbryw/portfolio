@@ -30,7 +30,7 @@ export default function MediaCard(props) {
       {/* <CardActionArea> */}
         <CardMedia
           className={classes.media}
-          image={props.item.imgUrl}
+          image={process.env.PUBLIC_URL + props.item.imgUrl}
           title="picture"
         />
         <CardContent className={classes.content}>
