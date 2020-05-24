@@ -9,7 +9,7 @@ export default function Current(){
                 Studerar på MedieInstitutet
             </Typography>
             <Typography style={{padding: "0 0 1rem 0"}} /*color={"primary"}*/>
-                <Link href="#">
+                <Link href="https://medieinstitutet.se/utbildningar/front-end-developer/">
                     Front End Developer
                 </Link>
             </Typography>

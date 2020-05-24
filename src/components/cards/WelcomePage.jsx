@@ -18,11 +18,11 @@ export default function WelcomePage(){
                         <GitHubIcon fontSize={'large'}/>
                     </Link>
                 </Typography>
-                <Typography style={{padding: "1rem"}}>
-                    <Link href="https://www.linkedin.com/in/alexbry/">
+                {/* <Typography style={{padding: "1rem"}}>
+                    <Link href="#">
                         <LinkedInIcon fontSize={'large'}/>
                     </Link>
-                </Typography>
+                </Typography> */}
             </Container>
         </Container>
     )
