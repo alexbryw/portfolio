@@ -34,7 +34,7 @@ const topContainerStyle = {
     flexDirection: 'column',
     justifyContent: "center",
     alignItems: "center",
-    backgroundImage: `url(${"portfolio/img/cloud1920.jpg"})`,
+    backgroundImage: `url(${"/portfolio/img/cloud1920.jpg"})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
