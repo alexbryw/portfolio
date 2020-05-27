@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Typography, Link } from '@material-ui/core'
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function WelcomePage(){
     return(

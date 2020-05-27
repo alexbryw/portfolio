@@ -8,6 +8,7 @@ import WelcomePage from './WelcomePage';
 import Current from './Current';
 import Bottom from './Bottom'
 import { makeStyles } from '@material-ui/core/styles'
+import About from './About';
 
 const useStyles = makeStyles({
     root: {
@@ -36,6 +37,7 @@ export default function CardHolder() {
                     })}
                 </Grid>
             </Container>
+            <About/>
             <Bottom />
         </div>
     )
