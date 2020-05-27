@@ -8,7 +8,7 @@ export default function About(){
             </Typography> */}
             <Typography style={textStyle}>
                 Även bekant med Wordpress LAMP stack, Linux Cron, C Arduinio. 
-                Jag har läst en utbildning tidigare 'Programutvecklare / konstruktör inom elektronik'
+                Jag har tidigare läst utbildningen 'Programutvecklare / konstruktör inom elektronik'
                 och är väldigt teknikintresserad, allt från webb, elektronik, raketer till AI.
             </Typography>
             {/* <Typography style={textStyle}>

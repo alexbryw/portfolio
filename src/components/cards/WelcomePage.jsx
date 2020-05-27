@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Typography, Link } from '@material-ui/core'
+import { Container, Typography, Link, Box } from '@material-ui/core'
 import GitHubIcon from '@material-ui/icons/GitHub';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function WelcomePage(){
     return(
-        <Container style={{ height: '20rem', display: 'flex', flexDirection: 'column', justifyContent: "center", alignItems: "center"}}>
+        <Box style={topContainerStyle}>
             <Typography variant={'h2'} color={"primary"}>
                 Portfolio
             </Typography>
@@ -24,7 +24,19 @@ export default function WelcomePage(){
                     </Link>
                 </Typography> */}
             </Container>
-        </Container>
+        </Box>
     )
 }
- 
+
+const topContainerStyle = {
+    height: '30rem',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundImage: `url(${"portfolio/img/cloud1920.jpg"})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    // backgroundAttachment: "fixed"
+}
