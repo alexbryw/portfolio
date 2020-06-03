@@ -5,7 +5,7 @@ import MediaCard from './MediaCard'
 import contentList from '../../content/content'
 import Navbar from './Navbar';
 import WelcomePage from './WelcomePage';
-import Current from './Current';
+// import Current from './Current';
 import Bottom from './Bottom'
 import { makeStyles } from '@material-ui/core/styles'
 import About from './About';
@@ -21,7 +21,8 @@ export default function CardHolder() {
         <div className={classes.root}>
             <Navbar />
             <WelcomePage />
-            <Current />
+            {/* <Current /> */}
+            <About/>
             <Container fixed /*className={classes.root}*/>
                 <Grid container
                     spacing={3}
@@ -37,7 +38,6 @@ export default function CardHolder() {
                     })}
                 </Grid>
             </Container>
-            <About/>
             <Bottom />
         </div>
     )

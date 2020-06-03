@@ -7,21 +7,25 @@ export default function About(){
             {/* <Typography style={textStyle}>
             </Typography> */}
             <Typography style={textStyle}>
-                Även bekant med Wordpress LAMP stack, Linux Cron, C Arduinio. 
-                Jag har tidigare läst utbildningen 'Programutvecklare / konstruktör inom elektronik'
-                och är väldigt teknikintresserad, allt från webb, elektronik, raketer till AI.
+                Jag läser just nu till Front End Developer på Medieinstitutet i Göteborg. 
+                HTML/CSS/JavaScript/TypeScript även frameworks som React på front end och Node/Express/MongoDB med REST API i backend. 
+                Mina kodprojekt från GitHub finns nedan.
             </Typography>
-            {/* <Typography style={textStyle}>
-            </Typography> */}
+            <Typography style={textStyle}>
+                Även bekant med C#.Net och Wordpress LAMP stack, Linux Cron. 
+                Jag har tidigare läst utbildningen 'Programutvecklare / konstruktör inom elektronik'
+                och är väldigt teknikintresserad, allt från webb, elektronik, raketer till ny energiteknik och AI.
+            </Typography>
         </Box>
     )
 }
 
 const boxHolderStyle = {
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    margin: "3rem 0 1rem 0", 
+    margin: "3rem 0 3rem 0", 
     padding: "1rem 0"
 }
 
