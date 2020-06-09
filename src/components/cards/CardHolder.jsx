@@ -3,7 +3,7 @@ import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import MediaCard from './MediaCard'
 import contentList from '../../content/content'
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import WelcomePage from './WelcomePage';
 // import Current from './Current';
 import Bottom from './Bottom'
@@ -19,7 +19,7 @@ export default function CardHolder() {
     const classes = useStyles()
     return(
         <div className={classes.root}>
-            <Navbar />
+            {/* <Navbar /> */}
             <WelcomePage />
             {/* <Current /> */}
             <About/>

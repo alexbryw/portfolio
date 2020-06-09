@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Typography, Link, Box } from '@material-ui/core'
 import GitHubIcon from '@material-ui/icons/GitHub';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function WelcomePage(){
@@ -24,12 +25,13 @@ export default function WelcomePage(){
                     </Link>
                 </Typography> */}
             </Container>
+            <KeyboardArrowDownIcon style={{position: "absolute", top: "90vh"}}/>
         </Box>
     )
 }
 
 const topContainerStyle = {
-    height: '30rem',
+    height: '100vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: "center",
