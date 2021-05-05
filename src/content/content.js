@@ -2,7 +2,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/visuallab.png",
     text:
-      "React-Native Expo THREE.JS(3D) interaktiv utbildningsapp där man ska hitta var i enhetscirkeln Cos eller Sin är som störst. ",
+      "React-Native Expo THREE.JS(3D) interaktiv utbildningsapp där man ska hitta vart i enhetscirkeln Cos eller Sin är som störst för att vinna. ",
     links: [
       { linkUrl: "https://github.com/alexbryw/VisualLab", linkDesc: "Repo" },
     ],
@@ -10,7 +10,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/mongodb-express-react2.png",
     text:
-      "Ladda upp bilder och text till en Express MongoDB REST API backend med React frontend. ",
+      "Poster med bilder och text kan laddas upp till en Express MongoDB REST API backend med React frontend. ",
     links: [
       {
         linkUrl: "https://github.com/alexbryw/mongodb-express-react",
@@ -21,7 +21,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/reactwebshop.png",
     text:
-      "Web shop med cart och check out. Nya produkter sparas i LocalStorage. Byggt med React, Material-UI och TypeScript.",
+      "Web shop med cart och checkout funktionalitet. Nya produkter sparas i LocalStorage. Byggt med React, Material-UI och TypeScript. ",
     links: [
       {
         linkUrl: "https://github.com/alexbryw/react-webshop",
@@ -44,7 +44,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/weatherapp.png",
     text:
-      "React TypeScript väderapp som hämtar väder data från OpenWether-API och ändrar figurens kläder efter väder.",
+      "React TypeScript väderapp som hämtar väderdata från OpenWether-API och ändrar figurens kläder efter väder.",
     links: [
       {
         linkUrl: "https://github.com/alexbryw/kladereftervader",
@@ -91,7 +91,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/unityGame2019.jpg",
     text:
-      "3D FPS elektroniksimulator byggd med Unity3D och C# med ett SPICE bibliotek för realistiska ström, spänning och effektberäkningar. ",
+      "3D FPS elektroniksimulator byggd med Unity3D, C# och ett SPICE bibliotek för realistiska ström, effekt och spänningsberäkningar. ",
     links: [
       // {linkUrl:"https://www.com.com",linkDesc: "Com Comsson"},
       // {linkUrl:"https://www.net.net",linkDesc: "Net Netsson"}
