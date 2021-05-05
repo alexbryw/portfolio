@@ -91,7 +91,7 @@ const contentList = [
   {
     imgUrl: "/img/proj/unityGame2019.jpg",
     text:
-      "3D Elektronik simulator byggd med Unity3D och C# med ett SPICE bibliotek för elektroniksimuleringen.",
+      "3D FPS elektroniksimulator byggd med Unity3D och C# med ett SPICE bibliotek för realistiska ström, spänning och effektberäkningar. ",
     links: [
       // {linkUrl:"https://www.com.com",linkDesc: "Com Comsson"},
       // {linkUrl:"https://www.net.net",linkDesc: "Net Netsson"}
